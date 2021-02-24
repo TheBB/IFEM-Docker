@@ -1,0 +1,21 @@
+[submodule "submodules/IFEM"]
+	path = submodules/IFEM
+	url = git@github.com:OPM/IFEM
+[submodule "submodules/IFEM-AdvectionDiffusion"]
+	path = submodules/IFEM-AdvectionDiffusion
+	url = git@github.com:OPM/IFEM-AdvectionDiffusion
+[submodule "submodules/IFEM-Darcy"]
+	path = submodules/IFEM-Darcy
+	url = git@github.com:OPM/IFEM-Darcy
+[submodule "submodules/IFEM-Elasticity"]
+	path = submodules/IFEM-Elasticity
+	url = git@github.com:OPM/IFEM-Elasticity
+[submodule "submodules/IFEM-Poisson"]
+	path = submodules/IFEM-Poisson
+	url = git@github.com:OPM/IFEM-Poisson
+[submodule "submodules/IFEM-PoroElasticity"]
+	path = submodules/IFEM-PoroElasticity
+	url = git@github.com:OPM/IFEM-PoroElasticity
+[submodule "submodules/IFEM-ThermoElasticity"]
+	path = submodules/IFEM-ThermoElasticity
+	url = git@github.com:OPM/IFEM-ThermoElasticity
