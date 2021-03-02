@@ -26,6 +26,7 @@ build IFEM-AdvectionDiffusion
 build IFEM-Darcy
 build IFEM-Elasticity/Linear
 build IFEM-Elasticity/Shell
+build IFEM-OpenFrac
 build IFEM-Poisson
 build IFEM-PoroElasticity
 build IFEM-ThermoElasticity

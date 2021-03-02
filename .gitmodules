@@ -19,3 +19,6 @@
 [submodule "submodules/IFEM-ThermoElasticity"]
 	path = submodules/IFEM-ThermoElasticity
 	url = git@github.com:OPM/IFEM-ThermoElasticity
+[submodule "submodules/IFEM-OpenFrac"]
+	path = submodules/IFEM-OpenFrac
+	url = git@github.com:OPM/IFEM-OpenFrac
