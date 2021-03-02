@@ -21,7 +21,7 @@ build() {
 }
 
 build_petsc
-build IFEM -DIFEM_INSTALL_DOXY=0 -DIFEM_USE_MPI=1 -DIFEM_USE_CEREAL=1
+build IFEM -DIFEM_INSTALL_DOXY=0 -DIFEM_USE_MPI=1 -DIFEM_USE_CEREAL=1 -DIFEM_USE_ZOLTAN=1
 build IFEM-AdvectionDiffusion
 build IFEM-Darcy
 build IFEM-Elasticity/Linear
