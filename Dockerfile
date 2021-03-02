@@ -1,8 +1,13 @@
 FROM ubuntu
 
+# Avoid some warnings when installing packages
 ARG DEBIAN_FRONTEND=noninteractive
+
+# We're running as root, must convince OpenMPI that it's fine
 ENV OMPI_ALLOW_RUN_AS_ROOT=1
 ENV OMPI_ALLOW_RUN_AS_ROOT_CONFIRM=1
+
+# PETSc location
 ENV PETSC_ARCH=parallel
 ENV PETSC_DIR=/sources/petsc
 ENV LD_LIBRARY_PATH=/sources/petsc/parallel/lib
@@ -26,3 +31,5 @@ COPY build.sh /build.sh
 
 RUN git clone -b release https://gitlab.com/petsc/petsc.git sources/petsc
 RUN /build.sh
+
+WORKDIR /work
