@@ -31,5 +31,3 @@ COPY build.sh /build.sh
 
 RUN git clone -b release https://gitlab.com/petsc/petsc.git sources/petsc
 RUN /build.sh
-
-WORKDIR /work
