@@ -24,10 +24,9 @@ RUN apt-get install -y \
     libatlas-base-dev libarpack2-dev libsuperlu-dev \
     libopenmpi-dev libtrilinos-zoltan-dev libtinyxml-dev libcereal-dev \
     libdune-istl-dev libdune-common-dev libsuitesparse-dev \
-    libhdf5-mpi-dev
+    libhdf5-mpi-dev python3-pip
 
 COPY submodules /sources
 COPY build.sh /build.sh
 
-RUN git clone -b release https://gitlab.com/petsc/petsc.git sources/petsc
 RUN /build.sh

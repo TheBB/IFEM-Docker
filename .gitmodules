@@ -22,3 +22,9 @@
 [submodule "submodules/IFEM-OpenFrac"]
 	path = submodules/IFEM-OpenFrac
 	url = git@github.com:OPM/IFEM-OpenFrac
+[submodule "submodules/siso"]
+	path = submodules/siso
+	url = git@github.com:TheBB/siso
+[submodule "submodules/petsc"]
+	path = submodules/petsc
+	url = https://github.com/petsc/petsc
